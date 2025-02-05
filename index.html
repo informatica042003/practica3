@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Etiquetas HTML</title>
+</head>
+<body>
+ <table border="1">
+	<tr>
+	<th>Numero</th>
+	<th>Nombre</th>
+	<th>Descripcion</th>
+	<th>Ejemplo</th>
+	<th>Elemento Especial</th>
+	</tr>
+    <tr>
+        <td>1</td>
+        <td>&lt;a&gt;</td>
+        <td>Define un hipervínculo. Se utiliza para enlazar una página a otra o un recurso.</td>
+        <td>&lt;a href="https://www.example.com"&gt;Visita Ejemplo&lt;/a&gt;</td>
+        <td>Se puede agregar el atributo target="_blank" para abrir el enlace en una nueva pestaña.</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>&lt;p&gt;</td>
+        <td>Define un párrafo de texto.</td>
+        <td>&lt;p&gt;Este es un párrafo.&lt;/p&gt;</td>
+        <td>Se puede usar el atributo class para aplicar estilos específicos.</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>&lt;h1&gt; a &lt;h6&gt;</td>
+        <td>Define encabezados de diferentes niveles, siendo &lt;h1&gt; el más importante y &lt;h6&gt; el menos.</td>
+        <td>&lt;h1&gt;Título Principal&lt;/h1&gt;</td>
+        <td>Se puede usar el atributo id para identificar el encabezado.</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>&lt;img&gt;</td>
+        <td>Define una imagen.</td>
+        <td>&lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;</td>
+        <td>Se puede agregar el atributo width para definir el ancho de la imagen.</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>&lt;div&gt;</td>
+        <td>Define una sección genérica en un documento.</td>
+        <td>&lt;div&gt;Contenido aquí&lt;/div&gt;</td>
+        <td>Se puede usar el atributo class para aplicar estilos específicos.</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>&lt;span&gt;</td>
+        <td>Define una sección en línea en un documento.</td>
+        <td>&lt;span&gt;Texto en línea&lt;/span&gt;</td>
+        <td>Se puede usar el atributo style para aplicar estilos en línea.</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>&lt;ul&gt;</td>
+        <td>Define una lista desordenada.</td>
+        <td>&lt;ul&gt;&lt;li&gt;Elemento 1&lt;/li&gt;&lt;li&gt;Elemento 2&lt;/li&gt;&lt;/ul&gt;</td>
+        <td>Se puede usar el atributo type para definir el tipo de viñeta.</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>&lt;ol&gt;</td>
+        <td>Define una lista ordenada.</td>
+        <td>&lt;ol&gt;&lt;li&gt;Elemento 1&lt;/li&gt;&lt;li&gt;Elemento 2&lt;/li&gt;&lt;/ol&gt;</td>
+        <td>Se puede usar el atributo start para definir el número inicial de la lista.</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>&lt;table&gt;</td>
+        <td>Define una tabla.</td>
+        <td>&lt;table&gt;&lt;tr&gt;&lt;td&gt;Celda&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</td>
+        <td>Se puede usar el atributo border para definir el borde de la tabla.</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>&lt;form&gt;</td>
+        <td>Define un formulario para la entrada de datos.</td>
+        <td>&lt;form action="submit.php"&gt;&lt;/form&gt;</td>
+        <td>Se puede usar el atributo method para definir el método de envío (GET o POST).</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>&lt;input&gt;</td>
+        <td>Define un campo de entrada de datos.</td>
+        <td>&lt;input type="text" name="nombre"&gt;</td>
+        <td>Se puede usar el atributo placeholder para mostrar un texto de ayuda.</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>&lt;button &gt;</td>
+        <td>Define un botón que puede ser presionado para realizar una acción.</td>
+        <td>&lt;button type="submit"&gt;Enviar&lt;/button&gt;</td>
+        <td>Se puede usar el atributo onclick para definir una acción al hacer clic.</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>&lt;label&gt;</td>
+        <td>Define una etiqueta para un elemento de formulario.</td>
+        <td>&lt;label for="nombre"&gt;Nombre:&lt;/label&gt;</td>
+        <td>Se puede usar el atributo for para asociar la etiqueta con un campo de entrada.</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>&lt;textarea&gt;</td>
+        <td>Define un área de texto para la entrada de datos.</td>
+        <td>&lt;textarea rows="4" cols="50"&gt;Texto aquí&lt;/textarea&gt;</td>
+        <td>Se puede usar el atributo maxlength para limitar el número de caracteres.</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>&lt;select&gt;</td>
+        <td>Define un menú desplegable.</td>
+        <td>&lt;select&gt;&lt;option value="1"&gt;Opción 1&lt;/option&gt;&lt;/select&gt;</td>
+        <td>Se puede usar el atributo multiple para permitir múltiples selecciones.</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>&lt;option&gt;</td>
+        <td>Define una opción en un menú desplegable.</td>
+        <td>&lt;option value="2"&gt;Opción 2&lt;/option&gt;</td>
+        <td>Se puede usar el atributo selected para preseleccionar una opción.</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>&lt;fieldset&gt;</td>
+        <td>Define un grupo de elementos de formulario.</td>
+        <td>&lt;fieldset&gt;&lt;legend&gt;Información Personal&lt;/legend&gt;&lt;/fieldset&gt;</td>
+        <td>Se puede usar el atributo disabled para deshabilitar todos los elementos dentro del campo.</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>&lt;legend&gt;</td>
+        <td>Define un título para un elemento &lt;fieldset&gt;.</td>
+        <td>&lt;legend&gt;Datos del Usuario&lt;/legend&gt;</td>
+        <td>Se puede usar para proporcionar contexto a los elementos agrupados.</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>&lt;progress&gt;</td>
+        <td>Define un indicador de progreso.</td>
+        <td>&lt;progress value="50" max="100"&gt;&lt;/progress&gt;</td>
+        <td>Se puede usar para mostrar el progreso de una tarea.</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>&lt;meter&gt;</td>
+        <td>Define una medida escalar dentro de un rango conocido.</td>
+        <td>&lt;meter value="0.6" min="0" max="1"&gt;&lt;/meter&gt;</td>
+        <td>Se puede usar para mostrar resultados de mediciones.</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>&lt;canvas&gt;</td>
+        <td>Define un área de dibujo en la que se puede renderizar gráficos.</td>
+        <td>&lt;canvas width="200" height="100"&gt;&lt;/canvas&gt;</td>
+        <td>Se puede usar JavaScript para dibujar en el canvas.</td>
+    </tr>
+    <tr>
+        <td>22</td>
+        <td>&lt;svg&gt;</td>
+        <td>Define gráficos vectoriales escalables.</td>
+        <td>&lt;svg width="100" height="100"&gt;&lt;circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red"/&gt;&lt;/svg&gt;</td>
+        <td>Se puede usar para crear gráficos y animaciones.</td>
+    </tr>
+    <tr>
+        <td>23</td>
+        <td>&lt;video&gt;</td>
+        <td>Define un video que se puede reproducir en el navegador.</td>
+        <td>&lt;video controls&gt;&lt;source src="video .mp4" type="video/mp4"&gt;Su navegador no soporta el video&lt;/video&gt;</td>
+        <td>Se puede usar el atributo autoplay para reproducir el video automáticamente.</td>
+    </tr>
+    <tr>
+        <td>24</td>
+        <td>&lt;audio&gt;</td>
+        <td>Define un contenido de audio que se puede reproducir en el navegador.</td>
+        <td>&lt;audio controls&gt;&lt;source src="audio.mp3" type="audio/mpeg"&gt;Su navegador no soporta el audio&lt;/audio&gt;</td>
+        <td>Se puede usar el atributo loop para reproducir el audio en bucle.</td>
+    </tr>
+    <tr>
+        <td>25</td>
+        <td>&lt;iframe&gt;</td>
+        <td>Define un marco en el que se puede mostrar otro documento HTML.</td>
+        <td>&lt;iframe src="https://www.example.com" width="300" height="200"&gt;&lt;/iframe&gt;</td>
+        <td>Se puede usar el atributo sandbox para aplicar restricciones de seguridad.</td>
+    </tr>
+    <tr>
+        <td>26</td>
+        <td>&lt;blockquote&gt;</td>
+        <td>Define una sección que es una cita de otro documento.</td>
+        <td>&lt;blockquote&gt;Esta es una cita.&lt;/blockquote&gt;</td>
+        <td>Se puede usar el atributo cite para especificar la fuente de la cita.</td>
+    </tr>
+    <tr>
+        <td>27</td>
+        <td>&lt;cite&gt;</td>
+        <td>Define el título de una obra o el nombre de un autor.</td>
+        <td>&lt;cite&gt;El Quijote&lt;/cite&gt;</td>
+        <td>Se puede usar para dar crédito a una fuente.</td>
+    </tr>
+    <tr>
+        <td>28</td>
+        <td>&lt;q&gt;</td>
+        <td>Define una cita corta en línea.</td>
+        <td>&lt;q&gt;Esto es una cita.&lt;/q&gt;</td>
+        <td>Se puede usar el atributo cite para especificar la fuente de la cita.</td>
+    </tr>
+    <tr>
+        <td>29</td>
+        <td>&lt;abbr&gt;</td>
+        <td>Define una abreviatura o acrónimo.</td>
+        <td>&lt;abbr title="Hypertext Markup Language"&gt;HTML&lt;/abbr&gt;</td>
+        <td>Se puede usar el atributo title para proporcionar la expansión de la abreviatura.</td>
+    </tr>
+    <tr>
+        <td>30</td>
+        <td>&lt;address&gt;</td>
+        <td>Define información de contacto para un autor o propietario de un documento.</td>
+        <td>&lt;address&gt;Contacto: ejemplo@correo.com&lt;/address&gt;</td>
+        <td>Se puede usar para proporcionar información de contacto.</td>
+    </tr>
+    <tr>
+        <td>31</td>
+        <td>&lt;time&gt;</td>
+        <td>Define una fecha o una hora.</td>
+        <td>&lt;time datetime="2023-10-01"&gt;1 de octubre de 2023&lt;/time&gt;</td>
+        <td>Se puede usar para marcar eventos temporales.</td>
+    </tr>
+    <tr>
+        <td>32</td>
+        <td>&lt;script&gt;</td>
+        <td>Define un script de programación.</td>
+        <td>&lt;script&gt;console.log("Hola Mundo");&lt;/script&gt;</td>
+        <td>Se puede usar para incluir código JavaScript en la página.</td>
+    </tr>
+    <tr>
+        <td>33</td>
+        <td>&lt;noscript&gt;</td>
+        <td>Define un contenido alternativo para usuarios que no tienen JavaScript habilitado.</td>
+        <td>&lt;noscript&gt;JavaScript está deshabilitado.&lt;/noscript&gt;</td>
+        <td>Se puede usar para proporcionar información adicional.</td>
+    </tr>
+    <tr>
+        <td>34</td>
+        <td>&lt;style&gt;</td>
+        <td>Define estilos CSS para un documento.</td>
+        <td>&lt;style&gt;body { background-color: lightblue; }&lt;/style&gt;</td>
+        <td>Se puede usar para aplicar estilos directamente en el HTML.</td>
+    </tr>
+    <tr>
+        <td>35</td>
+ <td>&lt;link&gt;</td>
+        <td>Define la relación entre un documento y un recurso externo, como una hoja de estilo.</td>
+        <td>&lt;link rel="stylesheet" href="styles.css"&gt;</td>
+        <td>Se puede usar para vincular hojas de estilo externas.</td>
+    </tr>
+    <tr>
+        <td>36</td>
+        <td>&lt;meta&gt;</td>
+        <td>Define metadatos sobre un documento HTML.</td>
+        <td>&lt;meta charset="UTF-8"&gt;</td>
+        <td>Se puede usar para especificar la codificación de caracteres.</td>
+    </tr>
+    <tr>
+        <td>37</td>
+        <td>&lt;title&gt;</td>
+        <td>Define el título de un documento HTML.</td>
+        <td>&lt;title&gt;Mi Página&lt;/title&gt;</td>
+        <td>Se muestra en la barra de título del navegador.</td>
+    </tr>
+    <tr>
+        <td>38</td>
+        <td>&lt;header&gt;</td>
+        <td>Define un encabezado para un documento o sección.</td>
+        <td>&lt;header&gt;&lt;h1&gt;Bienvenido&lt;/h1&gt;&lt;/header&gt;</td>
+        <td>Se puede usar para contener elementos de navegación.</td>
+    </tr>
+    <tr>
+        <td>39</td>
+        <td>&lt;footer&gt;</td>
+        <td>Define un pie de página para un documento o sección.</td>
+        <td>&lt;footer&gt;Derechos reservados 2023&lt;/footer&gt;</td>
+        <td>Se puede usar para incluir información de copyright.</td>
+    </tr>
+    <tr>
+        <td>40</td>
+        <td>&lt;nav&gt;</td>
+        <td>Define un conjunto de enlaces de navegación.</td>
+        <td>&lt;nav&gt;&lt;a href="#home"&gt;Inicio&lt;/a&gt;&lt;/nav&gt;</td>
+        <td>Se puede usar para estructurar la navegación del sitio.</td>
+    </tr>
+    <tr>
+        <td>41</td>
+        <td>&lt;main&gt;</td>
+        <td>Define el contenido principal de un documento.</td>
+        <td>&lt;main&gt;&lt;p&gt;Contenido principal aquí&lt;/p&gt;&lt;/main&gt;</td>
+        <td>Se puede usar para resaltar el contenido central.</td>
+    </tr>
+    <tr>
+        <td>42</td>
+        <td>&lt;section&gt;</td>
+        <td>Define una sección en un documento.</td>
+        <td>&lt;section&gt;&lt;h2&gt;Título de Sección&lt;/h2&gt;&lt;/section&gt;</td>
+        <td>Se puede usar para agrupar contenido relacionado.</td>
+    </tr>
+    <tr>
+        <td>43</td>
+        <td>&lt;article&gt;</td>
+        <td>Define un contenido independiente que puede ser distribuido o reutilizado.</td>
+        <td>&lt;article&gt;&lt;h2&gt;Título del Artículo&lt;/h2&gt;&lt;/article&gt;</td>
+        <td>Se puede usar para representar publicaciones o entradas de blog.</td>
+    </tr>
+    <tr>
+        <td>44</td>
+        <td>&lt;aside&gt;</td>
+        <td>Define contenido relacionado que se puede considerar como una nota al margen.</td>
+        <td>&lt;aside&gt;Información adicional&lt;/aside&gt;</td>
+        <td>Se puede usar para incluir información complementaria.</td>
+    </tr>
+    <tr>
+        <td>45</td>
+        <td>&lt;details&gt;</td>
+        <td>Define un conjunto de detalles que el usuario puede mostrar u ocultar.</td>
+        <td>&lt;details&gt;&lt;summary&gt;Más información&lt;/summary&gt;Contenido adicional&lt;/details&gt;</td>
+        <td>Se puede usar para proporcionar información adicional de forma opcional.</td>
+    </tr>
+    <tr>
+        <td>46</td>
+        <td>&lt;summary&gt;</td>
+        <td>Define un resumen para un elemento &lt;details&gt;.</td>
+        <td>&lt;summary&gt;Resumen aquí&lt;/summary&gt;</td>
+        <td>Se puede usar para mostrar un título que el usuario puede hacer clic.</td>
+    </tr>
+    <tr>
+        <td>47</td>
+        < td>&lt;dialog&gt;</td>
+        <td>Define un cuadro de diálogo o ventana emergente.</td>
+        <td>&lt;dialog&gt;Este es un diálogo.&lt;/dialog&gt;</td>
+        <td>Se puede usar el método show() para mostrar el diálogo mediante JavaScript.</td>
+    </tr>
+    <tr>
+        <td>48</td>
+        <td>&lt;template&gt;</td>
+        <td>Define un contenido que no se renderiza al cargar la página, pero se puede usar posteriormente.</td>
+        <td>&lt;template&gt;&lt;p&gt;Contenido del template&lt;/p&gt;&lt;/template&gt;</td>
+        <td>Se puede usar para crear elementos dinámicos en JavaScript.</td>
+    </tr>
+    <tr>
+        <td>49</td>
+        <td>&lt;slot&gt;</td>
+        <td>Define un espacio reservado en un componente web para contenido que se puede insertar.</td>
+        <td>&lt;slot&gt;Contenido aquí&lt;/slot&gt;</td>
+        <td>Se utiliza en la creación de componentes personalizados.</td>
+    </tr>
+    <tr>
+        <td>50</td>
+        <td>&lt;picture&gt;</td>
+        <td>Define un contenedor para imágenes que permite especificar diferentes fuentes de imagen.</td>
+        <td>&lt;picture&gt;&lt;source srcset="imagen.webp" type="image/webp"&gt;&lt;img src="imagen.jpg" alt="Descripción"&gt;&lt;/picture&gt;</td>
+        <td>Se puede usar para mejorar la carga de imágenes en diferentes dispositivos.</td>
+    </tr>
+    <tr>
+        <td>51</td>
+        <td>&lt;source&gt;</td>
+        <td>Define múltiples fuentes para elementos multimedia como &lt;audio&gt; y &lt;video&gt;.</td>
+        <td>&lt;source src="video.mp4" type="video/mp4"&gt;</td>
+        <td>Se puede usar para proporcionar diferentes formatos de archivo.</td>
+    </tr>
+    <tr>
+        <td>52</td>
+        <td>&lt;track&gt;</td>
+        <td>Define pistas de texto para elementos de video, como subtítulos.</td>
+        <td>&lt;track kind="subtitles" src="subtitulos_en.vtt" srclang="en" label="Inglés"&gt;</td>
+        <td>Se puede usar para mejorar la accesibilidad del contenido multimedia.</td>
+    </tr>
+    <tr>
+        <td>53</td>
+        <td>&lt;bdi&gt;</td>
+        <td>Define una sección de texto que debe ser aislada de la dirección del texto circundante.</td>
+        <td>&lt;bdi&gt;Texto aislado&lt;/bdi&gt;</td>
+        <td>Se puede usar para manejar texto en diferentes direcciones.</td>
+    </tr>
+    <tr>
+        <td>54</td>
+        <td>&lt;bdo&gt;</td>
+        <td>Define la dirección del texto, que puede ser de izquierda a derecha o de derecha a izquierda.</td>
+        <td>&lt;bdo dir="rtl"&gt;Texto de derecha a izquierda&lt;/bdo&gt;</td>
+        <td>Se puede usar para cambiar la dirección del texto en un contexto específico.</td>
+    </tr>
+    <tr>
+        <td>55</td>
+        <td>&lt;time&gt;</td>
+        <td>Define una fecha o una hora.</td>
+        <td>&lt;time datetime="2023-10-01"&gt;1 de octubre de 2023&lt;/time&gt;</td>
+        <td>Se puede usar para marcar eventos temporales.</td>
+    </tr>
+    <tr>
+        <td>56</td>
+        <td>&lt;var&gt;</td>
+        <td>Define una variable en un documento.</td>
+        <td>&lt;var&gt;x&lt;/var&gt; es una variable matemática.</td>
+        <td>Se puede usar para resaltar variables en un texto.</td>
+    </tr>
+    <tr>
+        <td>57</td>
+        <td>&lt;mark&gt;</td>
+        <td>Define texto que ha sido resaltado.</td>
+        <td>&lt;mark&gt;Texto resaltado&lt;/mark&gt;</td>
+        <td>Se puede usar para destacar información importante.</td>
+    </tr>
+    <tr>
+        <td>58</td>
+        <td>&lt;progress&gt;</td>
+        <td>Define un indicador de progreso.</td>
+        <td>& lt;progress value="70" max="100"&gt;&lt;/progress&gt;</td>
+        <td>Se puede usar para mostrar el progreso de una tarea en curso.</td>
+    </tr>
+    <tr>
+        <td>59</td>
+        <td>&lt;meter&gt;</td>
+        <td>Define una medida escalar dentro de un rango conocido.</td>
+        <td>&lt;meter value="0.5" min="0" max="1"&gt;&lt;/meter&gt;</td>
+        <td>Se puede usar para mostrar resultados de mediciones específicas.</td>
+    </tr>
+    <tr>
+        <td>60</td>
+        <td>&lt;kbd&gt;</td>
+        <td>Define texto que representa la entrada del teclado.</td>
+        <td>&lt;kbd&gt;Ctrl + C&lt;/kbd&gt;</td>
+        <td>Se puede usar para indicar combinaciones de teclas.</td>
+    </tr>
+    <tr>
+        <td>61</td>
+        <td>&lt;sub&gt;</td>
+        <td>Define texto que debe ser mostrado como subíndice.</td>
+        <td>&lt;sub&gt;H&lt;/sub&gt;2O</td>
+        <td>Se puede usar en fórmulas químicas y matemáticas.</td>
+    </tr>
+    <tr>
+        <td>62</td>
+        <td>&lt;sup&gt;</td>
+        <td>Define texto que debe ser mostrado como superíndice.</td>
+        <td>&lt;sup&gt;2&lt;/sup&gt;H</td>
+        <td>Se puede usar en notación matemática y científica.</td>
+    </tr>
+    <tr>
+        <td>63</td>
+        <td>&lt;ins&gt;</td>
+        <td>Define texto que ha sido insertado en un documento.</td>
+        <td>&lt;ins&gt;Texto insertado&lt;/ins&gt;</td>
+        <td>Se puede usar para mostrar cambios en un documento.</td>
+    </tr>
+    <tr>
+        <td>64</td>
+        <td>&lt;del&gt;</td>
+        <td>Define texto que ha sido eliminado de un documento.</td>
+        <td>&lt;del&gt;Texto eliminado&lt;/del&gt;</td>
+        <td>Se puede usar para indicar contenido que ya no es relevante.</td>
+    </tr>
+    <tr>
+        <td>65</td>
+        <td>&lt;small&gt;</td>
+        <td>Define texto que debe ser mostrado en un tamaño más pequeño.</td>
+        <td>&lt;small&gt;Texto pequeño&lt;/small&gt;</td>
+        <td>Se puede usar para notas al pie o aclaraciones.</td>
+    </tr>
+    <tr>
+        <td>66</td>
+        <td>&lt;strong&gt;</td>
+        <td>Define texto con énfasis fuerte.</td>
+        <td>&lt;strong&gt;Texto importante&lt;/strong&gt;</td>
+        <td>Se puede usar para resaltar información clave.</td>
+    </tr>
+    <tr>
+        <td>67</td>
+        <td>&lt;em&gt;</td>
+        <td>Define texto con énfasis.</td>
+        <td>&lt;em&gt;Texto enfatizado&lt;/em&gt;</td>
+        <td>Se puede usar para dar énfasis a ciertas palabras.</td>
+    </tr>
+    <tr>
+        <td>68</td>
+        <td>&lt;b&gt;</td>
+        <td>Define texto en negrita.</td>
+        <td>&lt;b&gt;Texto en negrita&lt;/b&gt;</td>
+        <td>Se puede usar para destacar palabras o frases.</td>
+    </tr>
+    <tr>
+        <td>69</td>
+        <td>&lt;i&gt;</td>
+        <td>Define texto en cursiva.</td>
+        <td>&lt;i&gt;Texto en cursiva&lt;/i&gt;</td>
+        <td>Se puede usar para títulos de obras o énfasis.</td>
+    </tr>
+    <tr>
+        <td>70</td>
+        <td>&lt;u&gt;</td>
+        <td>Define texto subrayado.</td>
+        <td>&lt;u&gt;Texto subrayado&lt;/u&gt;</td>
+        <td>Se puede usar para resaltar información importante.</td>
+    </tr>
+    <tr>
+        <td>71</td>
+        <td>&lt;span&gt;</td>
+        <td>Define una sección en línea en un documento.</td <td>&lt;span&gt;Texto en línea&lt;/span&gt;</td>
+        <td>Se puede usar para aplicar estilos en línea a partes específicas del texto.</td>
+    </tr>
+    <tr>
+        <td>72</td>
+        <td>&lt;br&gt;</td>
+        <td>Define un salto de línea.</td>
+        <td>&lt;p&gt;Texto antes del salto&lt;br&gt;Texto después del salto&lt;/p&gt;</td>
+        <td>Se puede usar para separar líneas dentro de un párrafo.</td>
+    </tr>
+    <tr>
+        <td>73</td>
+        <td>&lt;hr&gt;</td>
+        <td>Define una línea horizontal que representa un cambio temático.</td>
+        <td>&lt;hr&gt;</td>
+        <td>Se puede usar para dividir secciones de contenido.</td>
+    </tr>
+    <tr>
+        <td>74</td>
+        <td>&lt;col&gt;</td>
+        <td>Define propiedades de columna para una tabla.</td>
+        <td>&lt;col style="background-color: yellow;"&gt;&lt;/col&gt;</td>
+        <td>Se puede usar para aplicar estilos a columnas específicas.</td>
+    </tr>
+    <tr>
+        <td>75</td>
+        <td>&lt;colgroup&gt;</td>
+        <td>Define un grupo de columnas en una tabla.</td>
+        <td>&lt;colgroup&gt;&lt;col span="2"&gt;&lt;/colgroup&gt;</td>
+        <td>Se puede usar para aplicar estilos a un grupo de columnas.</td>
+    </tr>
+    <tr>
+        <td>76</td>
+        <td>&lt;caption&gt;</td>
+        <td>Define un título para una tabla.</td>
+        <td>&lt;table&gt;&lt;caption&gt;Título de la Tabla&lt;/caption&gt;&lt;/table&gt;</td>
+        <td>Se puede usar para proporcionar contexto a la tabla.</td>
+    </tr>
+    <tr>
+        <td>77</td>
+        <td>&lt;tbody&gt;</td>
+        <td>Define el cuerpo de una tabla.</td>
+        <td>&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Celda&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</td>
+        <td>Se puede usar para agrupar filas dentro de una tabla.</td>
+    </tr>
+    <tr>
+        <td>78</td>
+        <td>&lt;thead&gt;</td>
+        <td>Define el encabezado de una tabla.</td>
+        <td>&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Encabezado&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;/table&gt;</td>
+        <td>Se puede usar para definir encabezados de columnas.</td>
+    </tr>
+    <tr>
+        <td>79</td>
+        <td>&lt;tfoot&gt;</td>
+        <td>Define el pie de una tabla.</td>
+        <td>&lt;table&gt;&lt;tfoot&gt;&lt;tr&gt;&lt;td&gt;Total&lt;/td&gt;&lt;/tr&gt;&lt;/tfoot&gt;&lt;/table&gt;</td>
+        <td>Se puede usar para mostrar totales o resúmenes.</td>
+    </tr>
+    <tr>
+        <td>80</td>
+        <td>&lt;th&gt;</td>
+        <td>Define una celda de encabezado en una tabla.</td>
+        <td>&lt;th&gt;Encabezado&lt;/th&gt;</td>
+        <td>Se puede usar para resaltar encabezados de columnas o filas.</td>
+    </tr>
+    <tr>
+        <td>81</td>
+        <td>&lt;td&gt;</td>
+        <td>Define una celda de datos en una tabla.</td>
+        <td>&lt;td&gt;Datos&lt;/td&gt;</td>
+        <td>Se puede usar para mostrar información en una tabla.</td>
+    </tr>
+    <tr>
+        <td>82</td>
+        <td>&lt;map&gt;</td>
+        <td>Define un mapa de imagen.</td>
+        <td>&lt;map name="mapa"&gt;&lt;area shape="rect" coords="34,44,270,350" href="https://www.example.com"&gt;&lt;/map&gt;</td>
+        <td>Se puede usar para crear áreas clicables en una imagen.</td>
+    </tr>
+    <tr>
+        <td>83</td>
+        <td>&lt;area&gt;</td>
+        <td>Define un área dentro de un mapa de imagen.</td>
+        <td>&lt;area shape="circle" coords="100,100,50" href="https://www.example.com"&gt;</td>
+        <td>Se puede usar para enlazar diferentes partes de una imagen.</td>
+    </tr>
+    <tr>
+        <td>84</td>
+        <td>&lt;canvas&gt;</td>
+        <td>Define un área de dibujo en la que se puede renderizar gráficos.</td>
+        <td>&lt;canvas id="miCanvas" width="200" height="100"&gt;&lt;/canvas&gt;</td>
+        <td>Se puede usar JavaScript para dibujar en el canvas.</td>
+    </tr>
+    <tr>
+        <td>85</td>
+        <td>&lt;svg&gt;</td>
+        <td>Define gráficos vectoriales escalables.</td>
+        <td>&lt;svg width="100" height="100"&gt;&lt;rect width="100" height="100" style="fill:blue;" /&gt;&lt;/svg&gt;</td>
+        <td>Se puede usar para crear gráficos y animaciones.</td>
+    </tr>
+    <tr>
+        <td>86</td>
+        <td>&lt;embed&gt;</td>
+        <td>Define un contenedor para contenido externo, como un video o un archivo PDF.</td>
+        <td>&lt;embed src="documento.pdf" type="application/pdf"&gt;</td>
+        <td>Se puede usar para incrustar contenido multimedia.</td>
+    </tr>
+    <tr>
+        <td>87</td>
+        <td>&lt;object&gt;</td>
+        <td>Define un objeto que puede ser un archivo multimedia o un documento.</td>
+        <td>&lt;object data="video.mp4" type="video/mp4"&gt;&lt;/object&gt;</td>
+        <td>Se puede usar para incrustar contenido de diferentes tipos.</td>
+    </tr>
+    <tr>
+        <td>88</td>
+        <td>&lt;param&gt;</td>
+        <td>Define parámetros para un objeto.</td>
+        <td>&lt;param name="autoplay" value="true"&gt;</td>
+        <td>Se puede usar para configurar el comportamiento de un objeto.</td>
+    </tr>
+    <tr>
+        <td>89</td>
+        <td>&lt;source&gt;</td>
+        <td>Define múltiples fuentes para elementos multimedia como &lt;audio&gt; y &lt;video&gt;.</td>
+        <td>&lt;source src="video.webm" type="video/webm"&gt;</td>
+        <td>Se puede usar para proporcionar diferentes formatos de archivo.</td>
+    </tr>
+    <tr>
+        <td>90</td>
+        <td>&lt;track&gt;</td>
+        <td>Define pistas de texto para elementos de video, como subtítulos.</td>
+        <td>&lt;track kind="subtitles" src="subtitulos.vtt" srclang="es" label="Español"&gt;</td>
+        <td>Se puede usar para mejorar la accesibilidad del contenido multimedia.</td>
+    </tr>
+    <tr>
+        <td>91</td>
+        <td>&lt;dialog&gt;</td>
+        <td>Define un cuadro de diálogo o ventana emergente.</td>
+        <td>&lt;dialog&gt;Este es un diálogo.&lt;/dialog&gt;</td>
+        <td>Se puede usar el método show() para mostrar el diálogo mediante JavaScript.</td>
+    </tr>
+    <tr>
+        <td>92</td>
+        <td>&lt;template&gt;</td>
+        <td>Define un contenido que no se renderiza al cargar la página, pero se puede usar posteriormente.</td>
+        <td>&lt;template&gt;&lt;p&gt;Contenido del template&lt;/p&gt;&lt;/template&gt;</td>
+        <td>Se puede usar para crear elementos dinámicos en JavaScript.</td>
+    </tr>
+    <tr>
+        <td>93</td>
+        <td>&lt;slot&gt;</td>
+        <td>Define un espacio reservado en un componente web para contenido que se puede insertar.</td>
+        <td>&lt;slot&gt;Contenido aquí&lt;/slot&gt;</td>
+        <td>Se utiliza en la creación de componentes personalizados.</td>
+    </tr>
+    <tr>
+        <td>94</td>
+        <td>&lt;picture&gt;</td>
+        <td>Define un contenedor para imágenes que permite especificar diferentes fuentes de imagen.</td>
+        <td>&lt;picture&gt;&lt;source srcset="imagen.webp" type="image/webp"&gt;&lt;img src="imagen.jpg" alt="Descripción"&gt;&lt;/picture&gt;</td>
+        <td>Se puede usar para mejorar la carga de imágenes en diferentes dispositivos.</td>
+    </tr>
+    <tr>
+        <td>95</td>
+        <td>&lt;source&gt;</td>
+        <td>Define múltiples fuentes para elementos multimedia como &lt;audio&gt; y &lt;video&gt;.</td>
+        <td>&lt;source src="video.mp4" type="video/mp4"&gt;</td>
+        <td>Se puede usar para proporcionar diferentes formatos de archivo.</td>
+    </tr>
+    <tr>
+        <td>96</td>
+        <td>&lt;track&gt;</td>
+        <td>Define pistas de texto para elementos de video, como subtítulos.</td>
+        <td>&lt;track kind="subtitles" src="subtitulos.vtt" srclang="es" label="Español"&gt;</td>
+        <td>Se puede usar para mejorar la accesibilidad del contenido multimedia.</td>
+    </tr>
+    <tr>
+        <td>97</td>
+        <td>&lt;dialog&gt;</td>
+        <td>Define un cuadro de diálogo o ventana emergente.</td>
+        <td>&lt;dialog&gt;Este es un diálogo.&lt;/dialog&gt;</td>
+        <td>Se puede usar el método show() para mostrar el diálogo mediante JavaScript.</td>
+    </tr>
+    <tr>
+        <td>98</td>
+        <td>&lt;template&gt;</td>
+        <td>Define un contenido que no se renderiza al cargar la página, pero se puede usar posteriormente.</td>
+        <td>&lt;template&gt;&lt;p&gt;Contenido del template&lt;/p&gt;&lt;/template&gt;</td>
+        <td>Se puede usar para crear elementos dinámicos en JavaScript.</td>
+    </tr>
+    <tr>
+        <td>99</td>
+        <td>&lt;slot&gt;</td>
+        <td>Define un espacio reservado en un componente web para contenido que se puede insertar.</td>
+        <td>&lt;slot&gt;Contenido aquí&lt;/slot&gt;</td>
+        <td>Se utiliza en la creación de componentes personalizados.</td>
+    </tr>
+    <tr>
+        <td>100</td>
+        <td>&lt;bdi&gt;</td>
+        <td>Define una sección de texto que debe ser aislada de la dirección del texto circundante.</td>
+        <td>&lt;bdi&gt;Texto aislado&lt;/bdi&gt;</td>
+        <td>Se puede usar para manejar texto en diferentes direcciones.</td>
+    </tr>
+    <tr>
+        <td>101</td>
+        <td>&lt;bdo&gt;</td>
+        <td>Define la dirección del texto, que puede ser de izquierda a derecha o de derecha a izquierda.</td>
+        <td>&lt;bdo dir="rtl"&gt;Texto de derecha a izquierda&lt;/bdo&gt;</td>
+        <td>Se puede usar para cambiar la dirección del texto en un contexto específico.</td>
+    </tr>
+    <tr>
+        <td>102</td>
+        <td>&lt;wbr&gt;</td>
+        <td>Define un posible punto de ruptura de línea.</td>
+        <td>&lt;span&gt;Texto largo que puede tener un&lt;wbr&gt; punto de ruptura&lt;/span&gt;</td>
+        <td>Se puede usar para mejorar la legibilidad de texto largo.</td>
+    </tr>
+</table>
+
+</body>
+</html>
